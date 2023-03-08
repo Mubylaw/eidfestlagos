@@ -2,7 +2,7 @@ import aboutBg from "../assets/aboutBg.svg";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <img src={aboutBg} alt="about" />
       <h1>About EidFest</h1>
       <p>

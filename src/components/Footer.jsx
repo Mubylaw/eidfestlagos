@@ -7,7 +7,7 @@ import insta from "../assets/insta.svg";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <div className="logo">
         <img src={footerLogo} className="bg" alt="" />
         <img src={eidfest} alt="" />
@@ -17,16 +17,16 @@ function Footer() {
         <a href="/" className="foo-link">
           Home
         </a>
-        <a href="/" className="foo-link">
+        <a href="/about" className="foo-link">
           About
         </a>
-        <a href="/" className="foo-link">
+        <a href="/gallery" className="foo-link">
           Eidfest Experience
         </a>
-        <a href="/" className="foo-link">
+        <a href="/feature" className="foo-link">
           Feature
         </a>
-        <a href="/" className="foo-link">
+        <a href="/faq" className="foo-link">
           FAQ
         </a>
       </div>

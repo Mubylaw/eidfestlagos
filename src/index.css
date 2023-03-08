@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -32,6 +32,7 @@ html {
   justify-content: space-between;
   padding: 10px 65px;
   align-items: center;
+  z-index: 4;
   background: rgba(69, 20, 40, 0.34);
 }
 
@@ -47,6 +48,11 @@ html {
   margin: 0 15px;
 }
 
+.mob-nav,
+.nav .bottom img {
+  display: none;
+}
+
 .hero .btn {
   background: white;
   padding: 10px 25px;
@@ -54,6 +60,7 @@ html {
   font-size: 13px;
   font-weight: 500;
   text-decoration: none;
+  cursor: pointer;
   color: #9e4a6f;
   transition: all ease 0.5s;
 }
@@ -81,6 +88,7 @@ html {
   font-family: "Abril Fatface", sans-serif;
   color: white;
   font-size: 70px;
+  text-transform: uppercase;
   line-height: 80px;
 }
 
@@ -95,10 +103,10 @@ html {
 
 .about {
   width: 100%;
-  min-height: 100vh;
   padding: 75px;
   text-align: center;
   position: relative;
+  background: #f6f4f3;
 }
 
 .about h1 {
@@ -107,6 +115,7 @@ html {
   margin: 10px 0 40px;
   line-height: 80px;
   color: #9e4a6f;
+  text-transform: uppercase;
 }
 
 .about p {
@@ -189,4 +198,404 @@ html {
   position: absolute;
   transform: translate(-50%, -50%);
   width: 15px;
+}
+
+.community,
+.contact,
+.faq,
+.feature,
+.gallery {
+  padding: 75px;
+  text-align: center;
+}
+
+.community h1,
+.contact h1,
+.faq h1,
+.feature h1,
+.gallery h1 {
+  font-family: "Abril Fatface", sans-serif;
+  font-size: 45px;
+  margin: 10px 0 20px;
+  line-height: 60px;
+  color: #9e4a6f;
+  text-transform: uppercase;
+}
+
+.contact .tag,
+.faq .tag,
+.feature .tag,
+.gallery .tag {
+  color: #ee4088;
+  letter-spacing: 0.3em;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.community p,
+.contact p,
+.faq p,
+.feature p,
+.gallery p {
+  color: #404040;
+  width: 600px;
+  margin: 0 auto 20px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.gallery .img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.gallery .side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 8px;
+}
+
+.gallery img {
+  margin: 5px 0;
+  width: 320px;
+}
+
+.community .btn,
+.contact .btn,
+.gallery .btn {
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  background: #9e4a6f;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.community .btn:hover,
+.contact .btn:hover,
+.gallery .btn:hover {
+  background: white;
+  color: #9e4a6f;
+}
+
+.feature {
+  background: #fdf4f7;
+}
+
+.feature .item {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.feature .card {
+  position: relative;
+  margin: 15px 5px;
+}
+
+.feature .card:hover .info {
+  height: calc(100% - 7px);
+  transition: all ease 0.5s;
+}
+
+.feature .info {
+  position: absolute;
+  height: 193px;
+  bottom: 7px;
+  background: rgba(107, 45, 97, 0.78);
+  padding: 30px;
+  transition: all ease 0.5s;
+}
+
+.feature .info h1 {
+  color: #fff;
+  font-size: 27px;
+  line-height: 30px;
+  margin: 0 0 20px;
+}
+
+.feature .info p {
+  width: unset;
+  color: #fff;
+}
+
+.faq {
+  background: #4b1d44;
+  position: relative;
+  min-height: 100vh;
+}
+
+.faq p,
+.faq h1,
+.faq .tag {
+  color: white;
+}
+
+.faq img {
+  position: absolute;
+  opacity: 0.1;
+  width: 50vw;
+  left: -7px;
+}
+
+.faq img:nth-child(1) {
+  right: -7px;
+  left: unset;
+}
+
+.faq .accordion {
+  width: 600px;
+  margin: 10px auto;
+  z-index: 1;
+  position: relative;
+  text-align: left;
+  background: #f6f4f3;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+.faq .header {
+  background: #6b2d61;
+  border-radius: 10px;
+  opacity: 1;
+  padding: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.faq .ans {
+  padding: 20px 30px;
+  color: #404040;
+}
+
+.contact {
+  background: url(/assets/Rectangle%2014.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+.community .btn,
+.contact .btn {
+  display: block;
+  width: 200px;
+  margin: 40px auto 20px;
+}
+
+.input-wrapper {
+  position: relative;
+  line-height: 14px;
+  margin: 0 10px;
+  display: inline-block;
+  width: calc(50% - 20px);
+}
+
+label {
+  color: #727272;
+  font-size: 11px;
+  position: absolute;
+  font-weight: 600;
+  z-index: 2;
+  left: 20px;
+  top: 14px;
+  padding: 0 2px;
+  pointer-events: none;
+  transition: transform 100ms ease;
+  transform: translateY(-6px);
+}
+
+textarea,
+input {
+  font-size: 13px;
+  color: #bbbbbb;
+  outline: none;
+  border: 1px solid #bbbbbb;
+  padding: 25px 20px 10px;
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+input::placeholder {
+  color: #ddd;
+}
+
+.contact .form {
+  width: 600px;
+  margin: 20px auto;
+}
+
+.form .group {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+textarea {
+  height: 100px;
+}
+
+.input-wrapper.text {
+  width: calc(100% - 20px);
+}
+
+.quick {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  background: #00e676;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.quick img {
+  width: 22px;
+}
+
+@media (max-width: 960px) {
+  .hero .nav {
+    background: rgba(107, 45, 97, 0.78);
+  }
+
+  .nav .btn,
+  .nav .mid {
+    display: none;
+  }
+
+  .nav .bottom img {
+    display: block;
+    width: 35px;
+    cursor: pointer;
+  }
+
+  .mob-nav {
+    display: block;
+    position: fixed;
+    top: 78px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 78px);
+    background: rgba(107, 45, 97, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+    transition: all ease 0.3s;
+    z-index: 3;
+  }
+
+  .mob-nav .nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    margin: 15px 0;
+  }
+
+  .mob-nav.out {
+    left: 1000px;
+  }
+
+  .about p {
+    width: unset;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: unset;
+  }
+
+  .footer .logo {
+    width: 200px;
+    height: 260px;
+  }
+
+  .footer .mid {
+    width: unset;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding: 0 30px;
+  }
+
+  .hero h1 {
+    font-size: 52px;
+    line-height: 59px;
+  }
+
+  .hero .btn.main {
+    margin-top: 10px;
+  }
+
+  .gallery .img {
+    flex-direction: column;
+  }
+
+  .gallery img {
+    width: 100%;
+  }
+
+  .contact .form,
+  .faq .accordion,
+  .hero p,
+  .community p,
+  .contact p,
+  .faq p,
+  .feature p,
+  .gallery p {
+    width: unset;
+  }
+
+  .about,
+  .community,
+  .contact,
+  .faq,
+  .feature,
+  .gallery {
+    padding: 50px 30px;
+  }
+
+  .form .group {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .input-wrapper {
+    margin: 10px;
+    width: calc(100% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero .nav {
+    padding: 10px 30px;
+  }
+
+  .quick {
+    right: 25px;
+  }
+
+  .community h1,
+  .contact h1,
+  .faq h1,
+  .feature h1,
+  .gallery h1,
+  .about h1 {
+    font-size: 37px;
+    margin: 10px 0 20px;
+    line-height: 48px;
+  }
 }
