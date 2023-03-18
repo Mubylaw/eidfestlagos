@@ -37,7 +37,12 @@ function Hero() {
           </a>
         </div>
         <div className="bottom">
-          <a href="/" className="btn">
+          <a
+            href="https://selar.co/presaletickets"
+            target="_blank"
+            rel="noreferrer"
+            className="btn"
+          >
             Get Tickets
           </a>
           <img src={toggle} alt="" onClick={() => setActive(!active)} />
@@ -63,19 +68,26 @@ function Hero() {
           Contact
         </a>
       </div>
-      <div className="tag">The third edition</div>
+      <div className="tag">The fourth edition</div>
       <h1>Welcome</h1>
       <h1>To EidFest</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut
-        necessitatibus sapiente officiis voluptatem saepe quaerat vero ex magni
-        incidunt tempore dolor inventore non, atque fuga reprehenderit
-        dignissimos qui recusandae itaque.
+        An open space that delivers top-tier fun for Muslims to eat, drink,
+        play, network and have a relaxing out-of-home experience in the spirit
+        of the festive celebration
       </p>
-      <a href="/" className="btn main">
+      <a
+        href="https://selar.co/presaletickets"
+        target="_blank"
+        rel="noreferrer"
+        className="btn main"
+      >
         Get Tickets
       </a>
-      <a href="/" className="quick">
+      <a
+        href="https://chat.whatsapp.com/JlliRj6VoVW0aZtO2OFhTt"
+        className="quick"
+      >
         <img src={whatsapp} alt="" />
       </a>
     </div>

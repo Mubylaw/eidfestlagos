@@ -6,26 +6,22 @@ function About() {
       <img src={aboutBg} alt="about" />
       <h1>About EidFest</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut
-        necessitatibus sapiente officiis voluptatem saepe quaerat vero ex magni
-        incidunt tempore dolor inventore non, atque fuga reprehenderit
-        dignissimos qui recusandae itaque. Lorem ipsum, dolor sit amet
-        consectetur adipisicing elit. A minima incidunt debitis fugiat
-        recusandae cupiditate ducimus repellat porro eius in! Dolores libero vel
-        atque tempore neque consequuntur, fugiat odit autem. Lorem ipsum dolor
-        sit amet, consectetur adipisicing elit. Ut necessitatibus sapiente
-        officiis voluptatem saepe quaerat vero ex magni incidunt tempore dolor
-        inventore non, atque fuga reprehenderit dignissimos qui recusandae
-        itaque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. A
-        minima incidunt debitis fugiat recusandae cupiditate ducimus repellat
-        porro eius in! Dolores libero vel atque tempore neque consequuntur,
-        fugiat odit autem. Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Ut necessitatibus sapiente officiis voluptatem saepe quaerat vero
-        ex magni incidunt tempore dolor inventore non, atque fuga reprehenderit
-        dignissimos qui recusandae itaque. Lorem ipsum, dolor sit amet
-        consectetur adipisicing elit. A minima incidunt debitis fugiat
-        recusandae cupiditate ducimus repellat porro eius in! Dolores libero vel
-        atque tempore neque consequuntur, fugiat odit autem.
+        EidFest Lagos is the ultimate EID festival and biggest experience in
+        Lagos!
+      </p>
+      <p>
+        EID el-Fitr is religiously celebrated by all Muslims around the world
+        and by over 13 million Muslims in Lagos, Nigeria. They will gather in
+        the spirit of love and unity of a common way of life and culture -Islam.
+        This comes after fulfilling the 29/30 days of obligatory fasting in our
+        holy month of Ramadan.
+      </p>
+      <p>
+        Eidfest is a one-day event that aims to deliver a whole experience that
+        celebrates and promotes peace, love, and unity within Muslims. Creating
+        a space for Muslims to converge, bond, eat, drink, play, network, and
+        have a fun-filled, relaxing out-of-home experience in the spirit of the
+        festive celebration.
       </p>
     </div>
   );

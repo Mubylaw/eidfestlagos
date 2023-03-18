@@ -4,8 +4,9 @@ function Gallery() {
       <div className="tag">Our Gallery</div>
       <h1>The Eidfest Experience</h1>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
-        praesentium sunt recusandae repellat doloribus tempora.
+        EidFest features EidTreat, EidRadio, EidStage, keids Arena, Eid Market,
+        EidFun, Open Mic, Games sphere, Art Exhibition, Live Contests, EidFlex
+        and more!
       </p>
       <div className="img">
         <div className="side">
@@ -18,7 +19,14 @@ function Gallery() {
           <img src="/assets/Rectangle%2011.png" alt="" />
         </div>
       </div>
-      <a className="btn">View Gallery</a>
+      <a
+        href="https://drive.google.com/drive/folders/1ZFBt121pS-eAlzC_mBa3ejhDcagj4W5V"
+        className="btn"
+        target="_blank"
+        rel="noreferrer"
+      >
+        View Gallery
+      </a>
     </div>
   );
 }

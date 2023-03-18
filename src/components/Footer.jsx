@@ -32,25 +32,25 @@ function Footer() {
       </div>
       <div className="mid">
         <div className="header">Contact</div>
-        <div className="foo-link">08114047305</div>
+        <a href="tel:+2348114047305" className="foo-link">
+          08114047305
+        </a>
         <div className="foo-link">eidfestlagos@gmail.com</div>
-        <div className="foo-link">
-          Lighthouse estate, Off Orchid Hotel Road, Lekki, Lagos
-        </div>
+        <div className="foo-link">Lagos Nigeria</div>
       </div>
       <div className="mid social">
         <div className="header">Social Links</div>
         <div className="media">
-          <a href="/">
+          <a href="https://chat.whatsapp.com/JlliRj6VoVW0aZtO2OFhTt">
             <img src={foowhat} alt="" />
           </a>
-          <a href="/">
+          <a href="https://twitter.com/eidfestlagos_?s=21&t=fXkX8B4Of_7IlkjHBoTBDw">
             <img src={twitter} alt="" />
           </a>
-          <a href="/">
+          <a href="mailto:eidfestlagos@gmail.com?subject=As%20Salam%20Alaykum!">
             <img src={email} alt="" />
           </a>
-          <a href="/">
+          <a href="https://instagram.com/eidfestlagos?igshid=YmMyMTA2M2Y=">
             <img src={insta} alt="" />
           </a>
         </div>
