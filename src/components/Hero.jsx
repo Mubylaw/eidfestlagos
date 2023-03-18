@@ -69,8 +69,8 @@ function Hero() {
         </a>
       </div>
       <div className="tag">The fourth edition</div>
-      <h1>Welcome</h1>
-      <h1>To EidFest</h1>
+      <h1>Welcome To</h1>
+      <h1>EidFest Lagos</h1>
       <p>
         An open space that delivers top-tier fun for Muslims to eat, drink,
         play, network and have a relaxing out-of-home experience in the spirit
