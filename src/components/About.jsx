@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="about" id="about">
       <img src={aboutBg} alt="about" />
-      <h1>About EidFest</h1>
+      <h1>About EidFest Lagos</h1>
       <p>
         EidFest Lagos is the ultimate EID festival and biggest experience in
         Lagos!

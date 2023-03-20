@@ -19,9 +19,9 @@ function Contact({
       <div className="tag">Get in Touch</div>
       <h1>Contact Us</h1>
       <p>
-        Got questions about our epic EidFest? Don't be shy, drop us a message
-        faster than you can say Eid Mubarak. Trust us, it'll be more fun than
-        trying to spot the moon.
+        Got questions about our epic EidFest Lagos? Don't be shy, drop us a
+        message faster than you can say Eid Mubarak. Trust us, it'll be more fun
+        than trying to spot the moon.
       </p>
       <div className="form">
         {err && <div className="err alert">{err}</div>}

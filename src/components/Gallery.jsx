@@ -2,11 +2,11 @@ function Gallery() {
   return (
     <div className="gallery" id="gallery">
       <div className="tag">Our Gallery</div>
-      <h1>The Eidfest Experience</h1>
+      <h1>The Eidfest Lagos Experience</h1>
       <p>
-        EidFest features EidTreat, EidRadio, EidStage, keids Arena, Eid Market,
-        EidFun, Open Mic, Games sphere, Art Exhibition, Live Contests, EidFlex
-        and more!
+        EidFest Lagos features EidTreat, EidRadio, EidStage, keids Arena, Eid
+        Market, EidFun, Open Mic, Games sphere, Art Exhibition, Live Contests,
+        EidFlex and more!
       </p>
       <div className="img">
         <div className="side">

@@ -13,22 +13,22 @@ function FAQ() {
         section to answer some common questions.
       </p>
       <div className="accordion">
-        <div className="header">How can I participate at EidFest</div>
+        <div className="header">How can I participate at EidFest Lagos</div>
         <div className="ans">
-          Participation at EidFest can be by attendee, vendor or sponsorship as
-          an organization.
+          Participation at EidFest Lagos can be by attendee, vendor or
+          sponsorship as an organization.
         </div>
       </div>
       <div className="accordion">
-        <div className="header">Who can attend EidFest</div>
+        <div className="header">Who can attend EidFest Lagos</div>
         <div className="ans">
-          Families, couples, young individuals and kids can attend EidFest.
-          Anyone can.
+          Families, couples, young individuals and kids can attend EidFest
+          Lagos. Anyone can.
         </div>
       </div>
       <div className="accordion">
         <div className="header">
-          What are other activities to enjoy at EidFest
+          What are other activities to enjoy at EidFest Lagos
         </div>
         <div className="ans">
           EidTreat, EidRadio, EidStage, keids Arena, Eid Market, EidFun, Open

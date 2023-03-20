@@ -24,7 +24,7 @@ function Hero() {
             About
           </a>
           <a href="#gallery" className="nav-link">
-            EidFest Experience
+            EidFest Lagos Experience
           </a>
           <a href="#feature" className="nav-link">
             Feature
@@ -56,7 +56,7 @@ function Hero() {
           About
         </a>
         <a href="#gallery" className="nav-link" onClick={handleNav}>
-          EidFest Experience
+          EidFest Lagos Experience
         </a>
         <a href="#feature" className="nav-link" onClick={handleNav}>
           Feature

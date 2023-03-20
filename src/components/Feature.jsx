@@ -2,9 +2,9 @@ function Feature() {
   return (
     <div className="feature" id="feature">
       <div className="tag">Join Us</div>
-      <h1>Feature at EidFest</h1>
+      <h1>Feature at EidFest Lagos</h1>
       <p>
-        These are the ways you can participate in EidFest and support the
+        These are the ways you can participate in EidFest Lagos and support the
         vision. Learn more here
       </p>
       <div className="item">

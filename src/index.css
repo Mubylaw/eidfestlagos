@@ -631,3 +631,9 @@ textarea {
     line-height: 48px;
   }
 }
+
+@media (max-width: 360px) {
+  .hero {
+    background: url(/assets/background-bg-mobile.png) no-repeat center fixed;
+  }
+}
