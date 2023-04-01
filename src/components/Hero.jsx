@@ -38,7 +38,7 @@ function Hero() {
         </div>
         <div className="bottom">
           <a
-            href="https://selar.co/presaletickets"
+            href="https://selar.co/EidFestTicket"
             target="_blank"
             rel="noreferrer"
             className="btn"
@@ -77,7 +77,7 @@ function Hero() {
         of the festive celebration
       </p>
       <a
-        href="https://selar.co/presaletickets"
+        href="https://selar.co/EidFestTicket"
         target="_blank"
         rel="noreferrer"
         className="btn main"
